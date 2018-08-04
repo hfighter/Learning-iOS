@@ -4,9 +4,9 @@ date: 2018-07-30
 ---
 
 
-##git环境搭建(mac)
+## git环境搭建(mac)
 
-####1、安装homebrew 或者 直接下载安装cakebrew
+#### 1、安装homebrew 或者 直接下载安装cakebrew
 - [安装homebrew](https://brew.sh/index_zh-cn.html)
 
 	``` 
@@ -15,10 +15,10 @@ date: 2018-07-30
 
 - [安装cakebrew](https://www.cakebrew.com/)
 
-####2、git安装
+#### 2、git安装
 > brew install git
 
-####3、拉取代码前需要根据github或者gitlab账号生成ssh-key,然后将生成的.pub中的内容拷贝到github或者gitlib的ssh key中
+#### 3、拉取代码前需要根据github或者gitlab账号生成ssh-key,然后将生成的.pub中的内容拷贝到github或者gitlib的ssh key中
 
 - 1、生成ssh-key
 
@@ -37,7 +37,7 @@ date: 2018-07-30
 至此git环境已经配置完成，可以通过git clone来克隆代码
 
 
-####4、如果mac中同时存在github和gitlab的key需要作区分，新版的mac系统每次重启后都需要重新执行ssh-add比较麻烦， 解决方法如下：
+#### 4、如果mac中同时存在github和gitlab的key需要作区分，新版的mac系统每次重启后都需要重新执行ssh-add比较麻烦， 解决方法如下：
 - 1、cd ~/.ssh
 - 2、touch config
 - 3、配置文件
