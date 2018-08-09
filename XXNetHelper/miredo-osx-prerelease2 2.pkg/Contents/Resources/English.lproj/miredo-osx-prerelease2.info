@@ -1,0 +1,17 @@
+Title Miredo 1.0.6
+Version 
+Description Miredo is an open-source implementation of the Teredo: Tunneling IPv6 over UDP through NATs Internet proposed standard (RFCÊ4380), targetting the Linux kernel and BSD operating systems. The purpose of Teredo IPv6 tunneling is to provide IPv6 connectivity to users behind NAT devices, such as most broadband routers, most of which do not support IPv6.
+DefaultLocation /
+DeleteWarning 
+
+### Package Flags
+
+NeedsAuthorization YES
+Required NO
+Relocatable NO
+RequiresReboot NO
+UseUserMask NO
+OverwritePermissions NO
+InstallFat NO
+RootVolumeOnly YES
+OnlyUpdateInstalledLanguages NO

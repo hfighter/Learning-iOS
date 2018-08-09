@@ -1,0 +1,6 @@
+tun/tap driver installer
+========================
+
+This binary distribution contains a single installer package. Just open it to
+install TunTap on your computer. The installer allows to customize which parts
+of the package are installed in case you only need either tun or tap.
