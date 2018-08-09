@@ -32,7 +32,8 @@ xib编译生成nib文件；storyboard编译生成nib+plist文件；asset编译�
 
 如果工程依赖于其它target会优先编译依赖的target。
 这些过程可以在Xcode中查看：
-[]()
+
+![](https://raw.githubusercontent.com/hfighter/Learning-iOS/master/Xcode%E7%BC%96%E8%AF%91%E8%BF%87%E7%A8%8B/build.jpeg)
 
 
 
