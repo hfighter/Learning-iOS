@@ -1,0 +1,5 @@
+iOS TableView和CollectionView cell添加阴影
+
+1、TableView和CollectionView cell添加阴影会发现看不到效果，主要是因为UITableViewCell 和 UICollectionViewCell 以及UITableView和UICollectionView开启了裁剪，需要显示阴影时需要关闭裁剪。
+
+2、UITableViewCell 和 UICollectionViewCell添加阴影需要专门添加一个View图层来做阴影；然后添加一个contentview，将cell的内容添加到contentview上。
